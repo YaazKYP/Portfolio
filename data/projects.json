@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Bauhaus Poster Series",
+            "category": "Graphic Design",
+            "year": "2025",
+            "description": "A bold poster series inspired by Bauhaus typography.",
+            "image": "images/bauhaus-poster.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Summer Day Album Cover",
+            "category": "Graphic Design",
+            "year": "2023",
+            "description": "Music Cover Design",
+            "image": "images/Vinyl-Design.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Food Waste",
+            "category": "Graphic Design",
+            "year": "2023",
+            "description": "Food Waste Infographic.",
+            "image": "images/Food Waste.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Pickament",
+            "category": ["Web Development","UI / UX Design"],
+            "year": "2023",
+            "description": "Website from designer to designer.",
+            "image": "images/pickament.jpg"
+        }
+    ]
+}

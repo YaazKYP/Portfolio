@@ -1,12 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>YAAZ® — Creative Designer</title>
     <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script defer src="script.js"></script>
 </head>
+
 <body>
+    <!-- navigation -->
+    <nav class="navbar">
+        <a class="logo" href="index.html">Yaaz<span>®</span></a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <div class="nav-links" id="nav-links">
+            <a href="pages/work.html">Work</a>
+            <a href="pages/playground.html">Play Ground</a>
+            <a href="pages/about.html">About Me</a>
+            <a href="pages/contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="eyebrown">INDEPENDENT DESIGNER / DUBLIN, IRELAND</p>
+
+            <h1>
+                Hello<br>
+                I'm &nbsp;<span class="highlight">YAAZ.</span>
+                I Make Thing<br>
+                Look Interesting.
+            </h1>
+
+            <p class="hero-description">
+                A graphic designer exploring visual communication,
+                digital design and interactive experiences.
+            </p>
+
+            <a href="#work" class="primary-button">EXPLORE MY WORK</a>
+        </div>
+
+    <div class="hero-art" aria-hidden="true">
+        <div class="art-star">✹</div>
+        <div class="art-flower">✿</div>
+        <div class="art-block"><span>☺</span></div>
+        <div class="art-ring"></div>
+        <div class="art-ball"></div>
+        <div class="art-scribble">〰</div>
+    </div>
+
+    <div class="hero-caption">DESIGNER BY BACKGROUND.<br>CURIOUS BY NATURE.</div>
+
+    </header>
+
+    <section class="marquee-section" aria-label="Work">
+        <div class="marquee-window">
+            <div class="marquee-track">
+                <span class="marquee-item">DESIGNED</span><span class="marquee-dot">•</span>
+                <span class="marquee-item">DEVELOPED</span><span class="marquee-dot">•</span>
+                <span class="marquee-item">REFINED</span><span class="marquee-dot">•</span>
+                <span class="marquee-item">TRANSFORMED</span><span class="marquee-dot">•</span>
+                <span class="marquee-item">UPGRADED</span><span class="marquee-dot">•</span>
+                <span class="marquee-item">IMPLEMENTED</span><span class="marquee-dot">•</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Work-->
+    <section class="work-secssion" id="work">
+        <div class="section-heading">
+            <p class="eyebrown">01 / SELECTED PROJECTS</p>
+            <h2>Things I've&nbsp;<span>made</span></h2>
+        </div>
+
+        <div class="filters">
+            <button class="filter-button active" data-filter="All">All</button>
+            <button class="filter-button" data-filter="Graphic Design">Graphic Design</button>
+            <button class="filter-button" data-filter="UI / UX Design">UI / UX</button>
+            <button class="filter-button" data-filter="Web Development">Development</button>
+            <button class="filter-button" data-filter="Interactive Media">Interactive</button>
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+            <!-- Projects will be loaded from JSON -->
+        </div>
+
+        <a class="primary-button see-more-work" href="pages/work.html">SEE MORE WORK</a>
+    </section>
+
+    <!-- Play Ground = Experimental -->
+    <section class="playground-section" id="playground">
+        <p class="eyebrown">02 / EXPERIMENT & PLAY</p>
+        <h2>Curiosity <span>lives here.</span></h2>
+
+        <div class="playground-box">
+            <div class="play-text"><a href="pages/playground.html">PLAY!</a></div>
+            <p>A space for experiments, ideas and happy accidents.</p>
+            <div class="play-decoration">✳</div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about" id="about">
+        <p class="eyebrown">03 / A LITTLE ABOUT ME</p>
+
+        <h2>DESIGNER BY BACKGROUND.<br>
+            <span>CURIOUS BY NATURE.</span>
+        </h2>
+
+        <div class="about-content">
+            <p>I'm a graphic designer with a passion for visual storytelling,
+                typography and creative experimentation.
+            </p>
+
+            <p>
+                Currently exploring Interactive Digital Media at Trinity College
+                Dublin, expanding my practice into UX/UI, frontend development
+                and interactive experiences.
+            </p>
+        </div>
+
+        <a class="primary-button about-read-more" href="pages/about.html">READ MORE</a>
+
+        <div class="skill-tag">
+            <span> Graphic Design</span>
+            <span> Typography</span>
+            <span> UI/UX</span>
+            <span> Web Design</span>
+            <span> Adobe Crative Suite</span>
+            <span> HTML/CSS</span>
+            <span> Java Script</span>
+            <Span> Blender</Span>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <footer class="contact-section" id="contact">
+        <p class="eyebrown">04 / LET'S CONNECT</p>
+
+        <h2>HAVE A COOL<br>IDEA? <span>LET'S TALK.</span></h2>
+
+        <a href="pages/contact.html" class="contact-button">
+            SAY HELLO
+        </a>
+
+        <div class="footer-bottom">
+            <p>© 2026 YAAZ®</p>
+            <p>MADE WITH CURIOSITY IN DUBLIN.</p>
+        </div>
+    </footer>
+
 
 </body>
+
 </html>
