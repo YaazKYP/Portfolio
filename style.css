@@ -47,10 +47,6 @@ button {
     border-bottom: 1px solid var(--line);
 }
 
-/* .logo {
-
-} */
-
 .logo span {
     color: var(--orange);
 }
@@ -171,7 +167,7 @@ button {
     text-align: right;
 }
 
-/* Decorative CSS artwork — no image file is required */
+/* Decorative */
 .hero-art {
     position: absolute;
     width: 470px;
@@ -281,7 +277,7 @@ button {
     }
 }
 
-/* HORIZONTAL WORK MARQUEE */
+/* Moving Text - AI Helps */
 .marquee-section {
     height: 115px;
     background: var(--ink);
@@ -424,18 +420,6 @@ button {
 .project-card:hover .project-image img {
     transform: scale(1.05);
 }
-
-/* .project-card:hover .project-image {
-    transform: scale(0.98);
-}
-
-.project-image span {
-    transition: 0.4s;
-}
-
-.project-card:hover .project-image span {
-    transform: rotate(-12deg) scale(1.2);
-} */
 
 .project-info {
     position: relative;
@@ -626,10 +610,6 @@ button {
     .hero-caption {
         display: none;
     }
-
-    /* .scroll-note {
-        bottom: 20px;
-    } */
 
     .work-secssion,
     .about-section,
